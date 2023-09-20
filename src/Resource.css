@@ -1,0 +1,146 @@
+/* Sticky Header Styles */
+.sticky-header {
+  position: sticky;
+  top: 0;
+  background-color: #7e7d7d;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.banner {
+  background-image: url('./images/about-image.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: 50px 0;
+}
+
+.banner-text {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0;
+}
+
+  /* Centered Logo styles */
+  .centered-logo {
+    position: absolute;
+    top: 17%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+
+  .centered-logo img {
+    max-width: 100px;
+    height: 100px;
+    align-items: center;
+  }
+
+  /* Navbar styles */
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    padding: 5px 10px;
+  }
+
+  .navbar-brand {
+    font-size: 24px;
+  }
+
+  /* Menu toggle (hamburger icon) styles */
+  .menu-toggle {
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: space-between;
+    height: 20px;
+  }
+
+  .bar {
+    width: 30px;
+    height: 3px;
+    background-color: #fff;
+    transition: 0.4s;
+  }
+
+  .menu.open .bar:nth-child(1) {
+    transform: rotate(-45deg) translate(-5px, 6px);
+  }
+
+  .menu.open .bar:nth-child(2) {
+    opacity: 0;
+  }
+
+  .menu.open .bar:nth-child(3) {
+    transform: rotate(45deg) translate(-5px, -6px);
+  }
+
+  /* Menu styles */
+  .menu {
+    display: none;
+    flex-direction: inherit;
+    justify-content:center;
+    justify-content:space-around;
+    align-items: left;
+    padding: 5px;
+  }
+
+  .menu li {
+    margin-bottom: 10px;
+  }
+
+  .menu a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+  }
+
+  /* Show the menu when it's open */
+  .menu.open {
+    display: block;
+  }
+
+/* Resource Container Styles */
+.resource-container {
+  max-width: 1200px;
+  margin: 20px auto;
+  background-color: #f5f5f5;
+  color: #3a3939;
+  padding: 20px;
+}
+
+/* Category Styles */
+.category-title {
+  font-size: 20px;
+  margin-bottom: 20px;
+  color: #2c2c2c;
+}
+
+/* Resource Card Styles */
+.resource-card {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 15px;
+  background-color: #f5f5f5;
+}
+
+.resource-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.resource-description {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.resource-link {
+  color: blue;
+  text-decoration: underline;
+  cursor: pointer;
+}
