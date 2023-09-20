@@ -41,6 +41,12 @@ function App() {
           <img src={logoImage} alt="Your Logo"/>
           </div>
       <div className="header-content">
+        {/* Carousel */}
+      <section className="carousel-container">
+        <div className="carousel">
+          {/* ... carousel content ... */}
+        </div>
+      </section>
         <h1>Silent Witness</h1>
         <p>_________________________________________</p>
         <p>OUR PLATFORM IS MORE THAN JUST AN APP; IT'S A SANCTUARY FOR THOSE WHO CHOOSE TO REMAIN ANONYMOUS BUT REFUSE TO REMAIN SILENT. WE BELIEVE THAT EVERY ACT OF COURAGE, EVERY PIECE OF INFORMATION SHARED, HAS THE POWER TO TRANSFORM LIVES AND COMMUNITIES.</p>
