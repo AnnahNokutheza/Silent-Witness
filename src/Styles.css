@@ -1,0 +1,68 @@
+.crime-container {
+  border: 2px solid #ccc;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 10px;
+  width: 300px;
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+.crime-container:hover {
+  transform: scale(1.05);
+}
+
+.kidnapping {
+  background-color: #ff7675;
+}
+
+.rape {
+  background-color: #74b9ff;
+}
+
+.robbery {
+  background-color: #ffeaa7;
+}
+
+.hijacking {
+  background-color: #00cec9;
+}
+
+.genderbased-violence {
+  background-color:#ff7675;
+}
+
+.others {
+  background-color: #a29bfe;
+}
+
+.crime-analytics {
+  border: 2px solid #3498db;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 10px;
+  width: 300px;
+  text-align: center;
+  background-color: #f9f9f9;
+}
+
+.analytics-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.analytics-item {
+  padding: 10px;
+}
+
+.analytics-item h5 {
+  margin-bottom: 5px;
+  color: #333;
+}
+
+.analytics-item p {
+  font-weight: bold;
+  font-size: 20px;
+  margin: 0;
+  color: #2980b9;
+}

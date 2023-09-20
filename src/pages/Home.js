@@ -32,6 +32,8 @@ function App() {
              <li><a href="about">About</a></li>
              <li><a href="report">Report</a></li>
              <li><a href="resource">Resource</a></li>
+             <li><a href="reportstats">ReportStats</a></li>
+             <li><a href="report">CrimeAnalytics</a></li>
                 <li><a href="login">Login</a></li>
                 <li><a href="registration">Register</a></li>
         </ul>

@@ -26,7 +26,7 @@ const CrimeReport = () => {
       .then(() => {
         setSuccessMessage('Report submitted successfully!'); // Display success message
         setErrorMessage('');
-        navigate('/success');
+        navigate('/reportstats');
       })
       .catch(error => {
         setSuccessMessage('');

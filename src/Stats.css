@@ -1,0 +1,37 @@
+.crime-analytics-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+  }
+
+
+  .analytics-item {
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+  }
+
+  .analytics-item:hover {
+    transform: scale(1.05);
+  }
+
+  .analytics-item h4 {
+    margin-bottom: 10px;
+    font-size: 18px;
+  }
+
+  .analytics-item h5 {
+    font-size: 14px;
+    margin-bottom: 5px;
+  }
+
+  .analytics-item p {
+    font-size: 16px;
+    font-weight: bold;
+  }
